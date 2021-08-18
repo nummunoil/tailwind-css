@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   purge: [],
@@ -10,7 +10,7 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      '2xl': '1536px',
+      '2xl': '1536px', // giant: '1536px' -> giant:text-4xl
     },
     colors: {
       transparent: 'transparent',
@@ -62,7 +62,7 @@ module.exports = {
       64: '16rem',
       72: '18rem',
       80: '20rem',
-      96: '24rem',
+      96: '24rem', // huge: '24rem' -> pt-huge
     },
     animation: {
       none: 'none',
@@ -968,4 +968,4 @@ module.exports = {
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
   plugins: [],
-}
+};
